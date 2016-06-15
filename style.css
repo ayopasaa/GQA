@@ -41,7 +41,7 @@ img {
 #main-header {
 	background: #1d2731;
 	color: white;
-	height: 80px;
+	height: 100px;
     width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
 	left: 0; /* Posicionamos la cabecera al lado izquierdo */
 	top: 0; /* Posicionamos la cabecera pegada arriba */
