@@ -41,7 +41,7 @@ img {
 #main-header {
 	background: #1d2731;
 	color: white;
-	height: 100px;
+	height: 80px;
     width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
 	left: 0; /* Posicionamos la cabecera al lado izquierdo */
 	top: 0; /* Posicionamos la cabecera pegada arriba */
@@ -55,8 +55,8 @@ img {
  * Logo
  */
 #logo-header {
-	float: left;
-	padding: 15px 0 0 20px;
+	float: right;
+    padding: 15px 0px 0px 20px;
 	text-decoration: none;
 }
 	#logo-header:hover {
@@ -66,7 +66,8 @@ img {
 	#logo-header .site-name {
 		display: block;
 		font-weight: 700;
-		font-size: 1.2em;
+		font-size: 1.1em;
+        padding: 0px 0px 0px 59px;
 	}
 	
 	#logo-header .site-desc {
@@ -74,8 +75,14 @@ img {
 		font-weight: 300;
 		font-size: 0.8em;
 		color: #999;
+        
+        padding: 0px 0px 0px 120px;
 	}
-	
+/*logo grupo*/
+#region-logo{
+	float: left;
+    padding: 0px 0px 0px 0px;
+    text-decoration: none;}
  
 /*
  * Navegación
@@ -87,7 +94,7 @@ nav {
 		margin: 0;
 		padding: 0;
 		list-style: none;
-		padding-right: 20px;
+		padding-left: 20px;
 	}
 	
 		nav ul li {
@@ -103,14 +110,16 @@ nav {
 			
 				nav ul li a:hover {
 					background: #328cc1;
+                    color: #d9b310;
                      border-bottom: 1px solid #C9223D;
                     -webkit-transition:  background 0.3s ease-in-out;
                     -moz-transition:  background 0.3s ease-in-out;
                     -ms-transition:  background 0.3s ease-in-out;
                     -o-transition:  background 0.3s ease-in-out;
                     transition:  background 0.3s ease-in-out;
+                    
 				}
-
+                    
 
 /* Estilos de contenido*/
 
@@ -148,3 +157,8 @@ nav {
 ul {float:left; padding:0; margin:0;}
 .footer-social li {float:left; list-style:none; margin-left:5px;}
 .footer-social span { float:left; }
+
+p.CV {
+    font-size: 0.8em;
+	line-height: 1.2em;
+}
