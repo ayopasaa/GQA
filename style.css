@@ -55,7 +55,7 @@ img {
  * Logo
  */
 #logo-header {
-	float: right;
+	float: left;
     padding: 15px 0px 0px 10px;
 	text-decoration: none;
 }
@@ -66,17 +66,17 @@ img {
 	#logo-header .site-name {
 		display: block;
 		font-weight: 700;
-		font-size: 1.1em;
-        padding: 0px 0px 0px 59px;
+		font-size: 1.0em;
+        /*padding: 0px 0px 0px 59px;*/
 	}
 	
 	#logo-header .site-desc {
 		display: block;
 		font-weight: 300;
-		font-size: 0.8em;
+		font-size: 0.7em;
 		color: #999;
         
-        padding: 0px 0px 0px 120px;
+        /*padding: 0px 0px 0px 120px;*/
 	}
 /*logo grupo*/
 #region-logo{
@@ -187,7 +187,7 @@ a {
 	left: -250px;
 	padding: 20px 0 10px 0;
 	text-align: center;
-	position: fixed; 
+    position: fixed; 
 	transition:left 1s;
 	-webkit-transition:left 1s;
 	-moz-transition:left 1s;
@@ -202,7 +202,7 @@ a {
 	font-size: 20px;
 	border: 4px double;
 	border-radius: 50%;
-    	background: #CFB53B;
+    	background: #80aaff;
 	display: block;
 	width: 80px;
 	height: 80px;
@@ -222,6 +222,7 @@ a {
 	font-size: 28px;
 	line-height: 50px;
 }
+
 #menu {
 	margin-top: 30px;
 }
