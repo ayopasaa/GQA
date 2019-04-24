@@ -13,7 +13,7 @@ body {
 	padding: 0;
 	font-family: Helvetica, Arial, sans-serif;
 	color: #666;
-	background: #f2f2f2; 
+	background: #f6f6f6; 
 	font-size: 1em;
 	line-height: 1.5em;
     padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
@@ -39,7 +39,7 @@ img {
 /*Estilos de cabecera*/
 
 #main-header {
-	background: #1d2731;
+	background: #76b856;
 	color: white;
 	height: 80px;
     width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
@@ -60,7 +60,7 @@ img {
 	text-decoration: none;
 }
 	#logo-header:hover {
-		color: #328cc1;
+		color: #065143;
 	}
 	
 	#logo-header .site-name {
@@ -74,7 +74,7 @@ img {
 		display: block;
 		font-weight: 300;
 		font-size: 0.7em;
-		color: #999;
+		color: #130303;
         
         /*padding: 0px 0px 0px 120px;*/
 	}
@@ -109,9 +109,9 @@ nav {
 			}
 			
 				nav ul li a:hover {
-					background: #328cc1;
+					background: #07683e;
                     color: #d9b310;
-                     border-bottom: 1px solid #C9223D;
+                     border-bottom: 1px solid #008c8c;
                     -webkit-transition:  background 0.3s ease-in-out;
                     -moz-transition:  background 0.3s ease-in-out;
                     -ms-transition:  background 0.3s ease-in-out;
@@ -139,7 +139,7 @@ nav {
 /*Estilos pé de página*/
 
 #main-footer {
-	background: #1d2731;
+	background: #76b856;
 	color: white;
 	text-align: center;
     font-size: 0.8em;
